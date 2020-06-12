@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+#search-bar {
+    height: 34px !important;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-image: url("/search.png");
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position: 12px 7px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0); 
+}
+
+.btn-row {
+    margin-top: 30px;
+}
+
+.search-btn {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#language-selection {
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+#grid-application {
+    height: 20px;
+    width: auto;
+}
+
+#acc-img {
+    height: 30px;
+    width: auto;
+    border-radius: 60%;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation-bar li {
+    float: left;
+}
+
+.navigation-bar a {
+    display: block;
+    color: rgba(0,0,0,0.87);
+    text-align: center;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    
+}
+
+.footer {
+    background-color:#f2f2f2;
+    height: 120px;
+    width: 100%;
+    
+    
+}
+
+.footer-top {
+    height: 60px;
+
+   
+}
+
+.footer-bottom {
+    height: 60px;
+    
+}
+
+.footer-top p {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    padding-left: 18px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+
+
+.footer-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-bottom a {
+    display: block;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    text-align: center;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    
+}
+
+.footer-bottom li {
+    float: left;
+}
+
+.footer-bottom-left {
+    float: left;
+}
+
+.footer-bottom-right {
+    float: right;
+}
+
+.navigation-bar a:hover {
+    text-decoration: underline;
+}
+
+.navigation-bar {
+    float: right;
+}
